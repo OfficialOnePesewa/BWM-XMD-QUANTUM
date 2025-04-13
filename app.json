@@ -15,7 +15,7 @@
       "required": true
     },
     "AUTO_REJECT_CALL": {
-      "description": "Enter yes for your bot to auto react",
+      "description": "Enter yes for your bot to auto reject calls",
       "value": "no",
       "required": false
     },
@@ -66,7 +66,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "254xxxxxxxxx",
+      "value": "",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
@@ -119,11 +119,6 @@
       "value": "yes",
       "required": false
     },
-   "GROUPANTILINK_DELETE_ONLY": {
-      "description": "Enable anti-link in groups (yes/no)",
-      "value": "no",
-      "required": false
-    },	  
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
       "value": "no",
